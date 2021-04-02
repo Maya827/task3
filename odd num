@@ -1,0 +1,8 @@
+function oddNumbers(l, r) {
+    let arr = [];
+    while (l <= r) {
+        arr.push(l);
+        l += 1;
+    };
+    return arr.filter(n => n % 2);
+}

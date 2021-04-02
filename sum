@@ -1,0 +1,7 @@
+console.log(
+  [1,2,3].reduce(function(acc, val) { return acc + val; }, 0)
+)
+
+console.log(
+  [].reduce(function(acc, val) { return acc + val; }, 0)
+)

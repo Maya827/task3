@@ -1,0 +1,4 @@
+var result =
+  'this is very interesting'.replace(/\b[a-z]/g, (x) => x.toUpperCase())
+
+console.log(result) 
